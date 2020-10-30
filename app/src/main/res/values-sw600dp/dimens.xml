@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="img_item_size">90dp</dimen>
+    <dimen name="img_detail_h_size">210dp</dimen>
+
+    <dimen name="text_size_16sp">18sp</dimen>
+    <dimen name="text_size_18sp">20sp</dimen>
+    <dimen name="text_size_20sp">22sp</dimen>
+</resources>
