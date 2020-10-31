@@ -73,28 +73,38 @@
 
         <TextView
             android:id="@+id/text_author_detail"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="8dp"
             android:text="TextView"
             android:textColor="@color/colorBlack"
             android:textSize="@dimen/text_size_16sp"
+            app:layout_constraintBottom_toTopOf="@id/view"
+            app:layout_constraintEnd_toStartOf="@+id/text_date_detail"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_title_detail" />
 
         <TextView
             android:id="@+id/text_date_detail"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:textColor="@color/colorBlack"
+            android:layout_marginBottom="8dp"
             android:text="TextView"
+            android:textColor="@color/colorBlack"
             android:textSize="@dimen/text_size_16sp"
+            app:layout_constraintBottom_toTopOf="@id/view"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/text_author_detail"
             app:layout_constraintTop_toBottomOf="@+id/text_title_detail" />
 
         <View
