@@ -6,6 +6,7 @@ An application that displays several articles on football submitted by [News Api
 * RxJava
 * ViewModel
 * LiveData
+* Data binding
 * Glide
 * Circle image
 * Swipe to refresh layout
